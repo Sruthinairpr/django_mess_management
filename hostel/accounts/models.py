@@ -6,5 +6,6 @@ class Inmates(models.Model):
 	Name = models.CharField(max_length=100, null=True)
 	Room_Num = models.CharField(max_length=10, null=True)
 	Preference = models.CharField(max_length=20, null=True)
-	Present_Amount = models.IntegerField(null=True)
+	Bill_Amount = models.IntegerField(null=True)
 	MC = models.IntegerField(null=True)
+	Marked = models.IntegerField(null=True)
